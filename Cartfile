@@ -1,1 +1,1 @@
-github "mxcl/PromiseKit" ~> 6.8
+github "StreamLayer/PromiseKit" "6.8.4-static"
