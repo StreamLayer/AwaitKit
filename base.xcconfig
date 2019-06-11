@@ -1,0 +1,19 @@
+//
+//  base.xcconfig
+//  AwaitKit
+//
+//  Created by Vitaly Aminev on 2019-06-10.
+//  Copyright © 2019 Yannick Loriot. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+FRAMEWORK_SEARCH_PATHS[sdk=iphone*] = $(inherited) $(SRCROOT)/Carthage/Build/iOS
+FRAMEWORK_SEARCH_PATHS[sdk=appletv*] = $(inherited) $(SRCROOT)/Carthage/Build/tvOS
+FRAMEWORK_SEARCH_PATHS[sdk=watch*] = $(inherited) $(SRCROOT)/Carthage/Build/watchOS
+FRAMEWORK_SEARCH_PATHS[sdk=mac*] = $(inherited) $(SRCROOT)/Carthage/Build/Mac
+
+MACH_O_TYPE = staticlib
+
+OTHER_LDFLAGS = $(inherited) -ObjC -all_load -framework PromiseKit

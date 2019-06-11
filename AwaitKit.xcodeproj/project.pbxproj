@@ -12,7 +12,6 @@
 		FE41FCDE1F46D9AC00CD2271 /* AwaitKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD31F46D9A700CD2271 /* AwaitKitExtension.swift */; };
 		FE41FCDF1F46D9AC00CD2271 /* DispatchQueue+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD41F46D9A700CD2271 /* DispatchQueue+Async.swift */; };
 		FE41FCE01F46D9AC00CD2271 /* DispatchQueue+Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD51F46D9A700CD2271 /* DispatchQueue+Await.swift */; };
-		FE41FD201F46DB6800CD2271 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE41FD061F46DA7800CD2271 /* PromiseKit.framework */; };
 		FE41FD651F46F1C300CD2271 /* AwaitKitAsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCF11F46D9DB00CD2271 /* AwaitKitAsyncTests.swift */; };
 		FE41FD661F46F1C300CD2271 /* AwaitKitAwaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCF21F46D9DB00CD2271 /* AwaitKitAwaitTests.swift */; };
 		FE41FD671F46F1C300CD2271 /* AwaitKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCF31F46D9DB00CD2271 /* AwaitKitTests.swift */; };
@@ -20,55 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE21EFF4204B556300BDDA39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 633027EA203CC0060037E136;
-			remoteInfo = PMKDeprecatedTests;
-		};
-		CECA83E821542B1000091A85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C0244E622047A6CB00ACB4AC;
-			remoteInfo = "PMKJSA+Tests";
-		};
-		FE41FD051F46DA7800CD2271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 63B0AC571D595E1B00FA21D9;
-			remoteInfo = PromiseKit;
-		};
-		FE41FD071F46DA7800CD2271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 631751A81D59766500A9DDDC;
-			remoteInfo = "PMKA+Tests";
-		};
-		FE41FD091F46DA7800CD2271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6314113C1D59795700E24B9E;
-			remoteInfo = PMKBridgeTests;
-		};
-		FE41FD0B1F46DA7800CD2271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 630019221D596292003B4E30;
-			remoteInfo = PMKCoreTests;
-		};
-		FE41FD0F1F46DA8E00CD2271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 63B0AC561D595E1B00FA21D9;
-			remoteInfo = PromiseKit;
-		};
 		FE41FD681F46F1E600CD2271 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FEF014151E39E12200C4A60B /* Project object */;
@@ -79,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D860963322AF4B5E001A22C4 /* base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = base.xcconfig; sourceTree = "<group>"; };
 		FE41FCD21F46D9A700CD2271 /* AwaitKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKit.swift; sourceTree = "<group>"; };
 		FE41FCD31F46D9A700CD2271 /* AwaitKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitExtension.swift; sourceTree = "<group>"; };
 		FE41FCD41F46D9A700CD2271 /* DispatchQueue+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Async.swift"; sourceTree = "<group>"; };
@@ -88,7 +39,6 @@
 		FE41FCF11F46D9DB00CD2271 /* AwaitKitAsyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitAsyncTests.swift; sourceTree = "<group>"; };
 		FE41FCF21F46D9DB00CD2271 /* AwaitKitAwaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitAwaitTests.swift; sourceTree = "<group>"; };
 		FE41FCF31F46D9DB00CD2271 /* AwaitKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitTests.swift; sourceTree = "<group>"; };
-		FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PromiseKit.xcodeproj; path = Carthage/Checkouts/PromiseKit/PromiseKit.xcodeproj; sourceTree = "<group>"; };
 		FE41FD5D1F46F19F00CD2271 /* AwaitKit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwaitKit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF0141E1E39E12200C4A60B /* AwaitKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwaitKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE41FD201F46DB6800CD2271 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,26 +87,13 @@
 			path = Tests/AwaitKitTests;
 			sourceTree = "<group>";
 		};
-		FE41FCFE1F46DA7800CD2271 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FE41FD061F46DA7800CD2271 /* PromiseKit.framework */,
-				FE41FD081F46DA7800CD2271 /* PMKA+Tests.xctest */,
-				FE41FD0A1F46DA7800CD2271 /* PMKBridgeTests.xctest */,
-				FE41FD0C1F46DA7800CD2271 /* PMKCoreTests.xctest */,
-				CE21EFF5204B556300BDDA39 /* PMKDeprecatedTests.xctest */,
-				CECA83E921542B1000091A85 /* PMKJSA+Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FEF014141E39E12200C4A60B = {
 			isa = PBXGroup;
 			children = (
+				D860963322AF4B5E001A22C4 /* base.xcconfig */,
 				FE41FCD11F46D9A700CD2271 /* Sources */,
 				FE41FCD71F46D9A700CD2271 /* Tests */,
 				FEF0141F1E39E12200C4A60B /* Products */,
-				FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,7 +148,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE41FD101F46DA8E00CD2271 /* PBXTargetDependency */,
 			);
 			name = AwaitKit;
 			productName = AwaitKit;
@@ -252,12 +187,6 @@
 			mainGroup = FEF014141E39E12200C4A60B;
 			productRefGroup = FEF0141F1E39E12200C4A60B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FE41FCFE1F46DA7800CD2271 /* Products */;
-					ProjectRef = FE41FCFD1F46DA7800CD2271 /* PromiseKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FEF0141D1E39E12200C4A60B /* AwaitKit */,
@@ -265,51 +194,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CE21EFF5204B556300BDDA39 /* PMKDeprecatedTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PMKDeprecatedTests.xctest;
-			remoteRef = CE21EFF4204B556300BDDA39 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CECA83E921542B1000091A85 /* PMKJSA+Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "PMKJSA+Tests.xctest";
-			remoteRef = CECA83E821542B1000091A85 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FE41FD061F46DA7800CD2271 /* PromiseKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PromiseKit.framework;
-			remoteRef = FE41FD051F46DA7800CD2271 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FE41FD081F46DA7800CD2271 /* PMKA+Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "PMKA+Tests.xctest";
-			remoteRef = FE41FD071F46DA7800CD2271 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FE41FD0A1F46DA7800CD2271 /* PMKBridgeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PMKBridgeTests.xctest;
-			remoteRef = FE41FD091F46DA7800CD2271 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FE41FD0C1F46DA7800CD2271 /* PMKCoreTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PMKCoreTests.xctest;
-			remoteRef = FE41FD0B1F46DA7800CD2271 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FEF0141C1E39E12200C4A60B /* Resources */ = {
@@ -347,11 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE41FD101F46DA8E00CD2271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PromiseKit;
-			targetProxy = FE41FD0F1F46DA8E00CD2271 /* PBXContainerItemProxy */;
-		};
 		FE41FD691F46F1E600CD2271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FEF0141D1E39E12200C4A60B /* AwaitKit */;
@@ -507,6 +386,7 @@
 		};
 		FEF014271E39E12200C4A60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -523,6 +403,7 @@
 		};
 		FEF014281E39E12200C4A60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
