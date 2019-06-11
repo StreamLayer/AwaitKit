@@ -241,6 +241,7 @@
 /* Begin XCBuildConfiguration section */
 		FE41FD631F46F19F00CD2271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -252,6 +253,7 @@
 		};
 		FE41FD641F46F19F00CD2271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -263,6 +265,7 @@
 		};
 		FEF014241E39E12200C4A60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -328,6 +331,7 @@
 		};
 		FEF014251E39E12200C4A60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D860963322AF4B5E001A22C4 /* base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;

@@ -14,6 +14,4 @@ FRAMEWORK_SEARCH_PATHS[sdk=appletv*] = $(inherited) $(SRCROOT)/Carthage/Build/tv
 FRAMEWORK_SEARCH_PATHS[sdk=watch*] = $(inherited) $(SRCROOT)/Carthage/Build/watchOS
 FRAMEWORK_SEARCH_PATHS[sdk=mac*] = $(inherited) $(SRCROOT)/Carthage/Build/Mac
 
-MACH_O_TYPE = staticlib
-
 OTHER_LDFLAGS = $(inherited) -ObjC -all_load -framework PromiseKit
