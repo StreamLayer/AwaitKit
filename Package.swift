@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 /*
  * AwaitKit
@@ -36,7 +36,7 @@ let package = Package(
       targets: ["AwaitKit"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.8.4")
+    .package(url: "https://github.com/StreamLayer/PromiseKit.git", from: "6.10.0")
   ],
   targets: [
     .target(
