@@ -16,7 +16,7 @@ COMMITS_NUMBER=$(git rev-list --count HEAD)
 # https://hub.github.com/hub.1.html
 git remote add upstream $UPSTREAM || true
 
-RELEASE=$(hub release -L 1 | xargs -I % sh -c "echo %'-slr.'$COMMITS_NUMBER")
+RELEASE="5.2.0-slr.128"
 
 ### Create release and upload
 # Remove upstream to make 'hub' upload to 'origin' repo rather than default 'upstream'
